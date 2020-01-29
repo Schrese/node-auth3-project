@@ -7,8 +7,8 @@ module.exports = {
     connection: {
       host: 'localhost',
       user: 'Not Main',
-      password: process.env.PASSWORD,
-      database: user
+      password: "password1",
+      database: "user"
     }, 
     useNullAsDefault: true,
     migrations: {
